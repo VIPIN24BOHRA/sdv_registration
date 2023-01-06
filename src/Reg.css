@@ -1,0 +1,69 @@
+.Registration_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170vh;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background-size: cover;
+  background-position: center;
+}
+.reg_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 60%;
+  background-color: #c5d7f8;
+  padding: 20px 60px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.formInput {
+  width: 100% !important;
+}
+input {
+  width: 100%;
+  margin: 0px auto;
+}
+
+h1 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+.submit_btn {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    height: 150px;
+    width: 150px;
+  }
+
+  form {
+    padding: 60px 40px;
+  }
+  .app {
+    height: 160vh;
+  }
+}
